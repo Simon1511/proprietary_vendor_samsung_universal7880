@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/universal7880-common/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/universal7880-common/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    vendor/samsung/universal7880-common/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
     vendor/samsung/universal7880-common/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/universal7880-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/universal7880-common/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
