@@ -33,13 +33,19 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_PATH_32 := $($(TARGET_2ND_ARCH_VAR_PREFIX)TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 
-SYMLINKS := $(TARGET_OUT)/vendor
+SYMLINKS := $(TARGET_OUT_VENDOR)
 $(SYMLINKS):
 	@echo "Symlink: vulkan.exynos5.so"
 	@mkdir -p $@/lib/hw
 	@mkdir -p $@/lib64/hw
 	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
 	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib64/hw/vulkan.exynos5.so
+	@echo "Symlink: libOpenCL.so"
+	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so
+	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so
+	@echo "Symlink: libOpenCL.so.1"
+	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1
+	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so.1
 	@echo "Symlink: libOpenCL.so.1.1"
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1.1
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so.1.1
@@ -53,14 +59,14 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qca_cld_wlan
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/modules/qca_cld/qca_cld_wlan.ko
+LOCAL_SRC_FILES := proprietary/vendor/lib/modules/qca_cld/qca_cld_wlan.ko
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .ko
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/modules/qca_cld
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/modules/qca_cld
 
-MODULE_DIRS := $(TARGET_OUT)/system
+MODULE_DIRS := $(TARGET_OUT_VENDOR)
 $(MODULE_DIRS):
 	@mkdir -p $@/lib/modules/qca_cld
 
