@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/universal7880-common/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
     vendor/samsung/universal7880-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
-    vendor/samsung/universal7880-common/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
     vendor/samsung/universal7880-common/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/ca.pem \
@@ -112,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/sensorhubs.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensorhubs.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/sensors.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
@@ -131,8 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libprotobuf-cpp-fulN.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-fulN.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libprotobuf-cpp-litN.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-litN.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorhub.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorhubservice.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
