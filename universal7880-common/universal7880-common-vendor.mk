@@ -50,27 +50,27 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/ca.pem \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/Data.msc \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/bdwlan30.bin \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/bdwlan32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/bdwlan32.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan30.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/bdwlan32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan32.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_1.3.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_2.1.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.0.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.2.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/nvm_tlv_tf_1.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_tf_1.1.bin \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/otp30.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/otp30.bin \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/qwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/qwlan30.bin \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/qwlan30_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/qwlan30_ibss.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/otp30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/otp30.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/qwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qwlan30.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/qwlan30_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qwlan30_ibss.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv.img \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/rampatch_tlv_tf_1.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_tf_1.1.tlv \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/utf30.bin \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/utfbd30.bin \
-    vendor/samsung/universal7880-common/proprietary/vendor/etc/firmware/utfbd32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/utfbd32.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd30.bin \
+    vendor/samsung/universal7880-common/proprietary/vendor/firmware/utfbd32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd32.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
