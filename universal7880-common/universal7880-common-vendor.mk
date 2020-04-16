@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/sensors.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/sensors.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
@@ -176,7 +177,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui.so
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so
 
 ifeq ($(WITH_EXYNOS_BSP),)
 endif
